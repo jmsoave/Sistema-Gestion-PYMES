@@ -1,5 +1,5 @@
 # Sistema de Gestión Logística y Facturación Automatizada
-### Micro-ERP / OMS para Pymes del sector logístico — Argentina
+### Micro-ERP para Pymes del sector logístico
 
 Sistema de escritorio offline-first diseñado para automatizar el ciclo de vida
 de pedidos, control de inventario y emisión de comprobantes fiscales (CAE) para
@@ -17,15 +17,15 @@ En el sector logístico tradicional, la carga manual de remitos y la facturació
 individual generan cuellos de botella diarios que impactan directamente en la
 capacidad operativa del negocio. Este sistema fue diseñado bajo tres premisas:
 
-**Fricción cero** — El sistema se adapta al flujo de trabajo existente del
+**Fricción cero** El sistema se adapta al flujo de trabajo existente del
 cliente. Ingiere directamente las planillas Excel de choferes y vendedores sin
 forzar una carga manual redundante.
 
-**Operación local (offline-first)** — La base de datos opera localmente,
+**Operación local (offline-first)** La base de datos opera localmente,
 garantizando que la consulta de stock, precios y armado de hojas de ruta
 funcione a máxima velocidad sin depender de infraestructura en la nube.
 
-**Trazabilidad absoluta** — Registro histórico de movimientos de inventario
+**Trazabilidad absoluta** Registro histórico de movimientos de inventario
 para auditorías de entrada y salida de mercadería.
 
 ---
@@ -89,7 +89,7 @@ con CAE incluido.
 Explosión de procesos desde el Nivel 0 (contexto) hasta el Nivel 1, mostrando
 el viaje de la información entre actores externos y almacenes de datos.
 
-![Diagrama DFD](assets/diagrama_dfd.png)
+![Diagrama DFD](diagrama_dfd.png)
 
 ### Diagrama entidad-relación (DER)
 
@@ -97,21 +97,21 @@ Diseño relacional de la base de datos. Destaca la normalización de entidades
 (Clientes, Productos, Viajes) y las tablas intermedias para soportar un modelo
 de datos escalable.
 
-![Diagrama DER](assets/diagrama_der.png)
+![Diagrama ER](diagrama_er.png)
 
 ### Diagrama de secuencia (UML)
 
 Interacción temporal entre los objetos del sistema durante el proceso de
 facturación, con bloques de validación `alt faltantes / con stock`.
 
-![Diagrama de Secuencia](assets/diagrama_secuencia.png)
+![Diagrama de Secuencia](diagrama_secuencia.png)
 
 ### Diagrama de casos de uso
 
 Fronteras del sistema y comportamientos esperados por los distintos roles de
 usuario.
 
-![Casos de Uso](assets/diagrama_casos_uso.png)
+![Diagrama de Casos de Uso](diagrama_cu.png)
 
 ---
 
