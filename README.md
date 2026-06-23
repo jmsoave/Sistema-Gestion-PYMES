@@ -89,7 +89,7 @@ con CAE incluido.
 Explosión de procesos desde el Nivel 0 (contexto) hasta el Nivel 1, mostrando
 el viaje de la información entre actores externos y almacenes de datos.
 
-![Diagrama DFD](diagrama_dfd.png)
+![Diagrama DFD](Diagrama%20DFD.png)
 
 ### Diagrama entidad-relación (DER)
 
@@ -97,21 +97,21 @@ Diseño relacional de la base de datos. Destaca la normalización de entidades
 (Clientes, Productos, Viajes) y las tablas intermedias para soportar un modelo
 de datos escalable.
 
-![Diagrama ER](diagrama_er.png)
+![Diagrama ER](Diagrama%20ER.png)
 
 ### Diagrama de secuencia (UML)
 
 Interacción temporal entre los objetos del sistema durante el proceso de
 facturación, con bloques de validación `alt faltantes / con stock`.
 
-![Diagrama de Secuencia](diagrama_secuencia.png)
+![Diagrama de Secuencia](Diagrama%20Secuencia.png)
 
 ### Diagrama de casos de uso
 
 Fronteras del sistema y comportamientos esperados por los distintos roles de
 usuario.
 
-![Diagrama de Casos de Uso](diagrama_cu.png)
+![Diagrama de Casos de Uso](Diagrama%20CU.png)
 
 ---
 
@@ -141,4 +141,4 @@ Disponible para roles Junior en Analisis de Datos y Automatizacion de Procesos.
 
 - LinkedIn: [linkedin.com/in/juan-martino-soave-4722682a1](https://linkedin.com/in/juan-martino-soave-4722682a1)
 - GitHub: [github.com/jmsoave](https://github.com/jmsoave)
-- Email: _(agregar email de contacto profesional)_
+- Email: soavejuanmartino@gmail.com
