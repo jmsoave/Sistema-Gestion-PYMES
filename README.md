@@ -120,14 +120,14 @@ usuario.
 El MVP cubre el ciclo completo de pedidos, stock y facturación local.
 Las siguientes etapas están planificadas:
 
-- **Migración de persistencia** — Transición a PostgreSQL para soportar
+- **Migración de persistencia** - Transición a PostgreSQL para soportar
   concurrencia en red local (LAN) con múltiples operadores simultáneos.
-- **Business intelligence** — Exposición de la base de datos para integración
+- **Business intelligence** - Exposición de la base de datos para integración
   nativa con Power BI: dashboards de rendimiento por chofer y análisis de
   ventas por zona.
-- **Portal de clientes** — Interfaz web liviana para que los clientes externos
+- **Portal de clientes** - Interfaz web liviana para que los clientes externos
   carguen sus propias notas de pedido, eliminando el paso de ingesta manual.
-- **App móvil para repartidores** — Confirmación de entregas desde el celular
+- **App móvil para repartidores** - Confirmación de entregas desde el celular
   del chofer, con actualización automática del estado del viaje.
 
 ---
@@ -135,7 +135,7 @@ Las siguientes etapas están planificadas:
 ## Contacto
 
 **Juan Martino Soave**
-Estudiante de Ingenieria en Informatica — UNLaM, Buenos Aires
+Estudiante de Ingenieria en Informatica - UNLaM, Buenos Aires
 
 Disponible para roles Junior en Analisis de Datos y Automatizacion de Procesos.
 
